@@ -14,7 +14,9 @@ Install it via ```sudo apt install curl```
 
 ## Steps to Run the Script:
 
-Save the above script in a file, called get_plugins_last_updated.sh.
+Download or save the above script in a file, called get_plugins_last_updated.sh.
+
+Upload to server in WP root
 
 Make the script executable:
 
