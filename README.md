@@ -1,0 +1,1 @@
+# check-plugins-bash-script
