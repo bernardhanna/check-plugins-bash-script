@@ -53,5 +53,5 @@ rm $temp_file
 
 # Print plugins that failed to fetch info
 if [ ! -z "$failed_plugins" ]; then
-  echo "Failed to get last update information for the following plugins: ${failed_plugins%,} This could be beacuse the plugin is not hosted on WordPress.org, it could be Premium, has been removed or is a custom plugin."
+  echo "Failed to get last update information for the following plugins: ${failed_plugins%,} This could be because the plugin is not hosted on WordPress.org, it could be Premium, has been removed or is a custom plugin."
 fi
