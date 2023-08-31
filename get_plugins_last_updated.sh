@@ -9,6 +9,9 @@ failed_plugins=""
 # Get a list of all installed plugins
 plugins=$(wp plugin list --field=name)
 
+# Get today's date
+today=$(date +%Y-%m-%d)
+
 # Loop through each plugin and fetch its last updated date
 for plugin in $plugins; do
   echo "Fetching info for plugin: $plugin"
@@ -33,7 +36,16 @@ done
 sort $temp_file | while read -r line; do
   date=$(echo $line | awk '{print $1}')
   plugin=$(echo $line | awk '{print substr($0, index($0,$2))}')
-  echo "Plugin: $plugin, Last Updated on: $date"
+
+  # Calculate the number of days since the last update
+  days_since_update=$(( ( $(date -d "$today" +%s) - $(date -d "$date" +%s) ) / 86400 ))
+
+  # Check if the plugin has been updated in the last 6 months (approx. 182 days)
+  if [ "$days_since_update" -gt 182 ]; then
+    echo -e "\e[31mWarning\e[0m: $plugin, Last Updated on: $date"
+  else
+    echo -e "\e[32mOK\e[0m: $plugin, Last Updated on: $date"
+  fi
 done
 
 # Remove the temporary file
@@ -41,6 +53,5 @@ rm $temp_file
 
 # Print plugins that failed to fetch info
 if [ ! -z "$failed_plugins" ]; then
-  echo "Failed to get last update information for the following plugins: ${failed_plugins%,}"
+  echo "Failed to get last update information for the following plugins: ${failed_plugins%,} This could be beacuse the plugin is not hosted on WordPress.org, it could be Premium, has been removed or is a custom plugin."
 fi
-
