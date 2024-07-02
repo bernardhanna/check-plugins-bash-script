@@ -1,0 +1,20 @@
+{
+  "name": "bernardhanna/woocommerce-custom-product-boxes-plugin",
+  "description": "woocommerce custom product boxes plugin",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bernard Hanna",
+      "email": "bernard@matrixinternet.ie"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "WoocommercePdfIpsPro\\": "src/"
+    }
+  }
+}

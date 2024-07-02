@@ -1,0 +1,85 @@
+.radio_option_images_rs:hover  {
+  cursor: pointer;
+   /*webkit-filter: blur(40px); /* Chrome, Safari, Opera */
+    opacity: 0.5;
+ } 
+
+tbody#prefilled-row-mixmatch tr td:nth-child(3) input{
+    width: 100%;
+}
+input.mm_prefilled_delete {
+    background: #e61818 !important;
+    border-color: #e61818 #e61818 #e61818 !important;
+    box-shadow: 0 1px 0 #e61818 !important;
+    color: #fff !important;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #e61818, 1px 0 1px #e61818, 0 1px 1px #e61818, -1px 0 1px #e61818 !important;
+}
+p.form-field.mm_mandatory_items_wrapper #mm_render_prefilled_products {
+    width: 70%;
+    margin-right: 40px;
+}
+div#wooextmm_settings p.product-setting-heading {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    background: #ccc;
+    padding: 10px 0px;
+}
+p._mm_add_products_field span.select2 {
+    width: 100% !important;
+}
+p._mm_add_products_field span.select2-selection.select2-selection--multiple {
+    border-color: #ddd !important;
+}
+li.select2-selection__choice {
+    padding: 4px 12px !important;
+    border-radius: 0px !important;
+}
+li.select2-selection__choice span {
+    font-size: 15px;
+}
+.select2-container .select2-search--inline .select2-search__field {
+	padding: 8px 0px !important;
+}
+.mm_addons_notes {
+    padding: 0px 40px;
+}
+.mm_addons_notes h4 {
+    margin: 8px 0px;
+}
+.mm_addons_notes ul {
+    margin: 12px 25px;
+}
+.mm_addons_notes ul li{
+    list-style-type: circle;
+}
+/*._mm_gift_masg_label_field{
+    display: none;
+}*/
+.prefilled_products table {
+    width: 100%;
+}
+.prefilled_products table tbody tr td {
+    text-align: center !important;
+    padding-top: 15px;
+}
+.prefilled_products table tbody tr td input{
+    float: none !important;
+}
+.prefilled_products table tbody tr td:nth-child(2) select {
+    width:100%;
+}
+.prefilled_products {
+    padding: 20px 30px;
+}
+a.prefilled-removed {
+    padding-right: 20px;
+    color: transparent;;
+}
+a.prefilled-removed:focus {
+    outline: 0 !important;
+}
+.generalsuccessmessage {
+    display: none;
+}

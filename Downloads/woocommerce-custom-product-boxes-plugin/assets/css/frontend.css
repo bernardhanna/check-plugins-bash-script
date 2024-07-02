@@ -1,0 +1,309 @@
+
+#collapsebox1{
+    display: none;
+
+}
+#add_new_boxlist{
+
+    display: none;
+}
+
+#addcollapse{
+    margin-top: 20px;
+}
+.thumb-up-mm img {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.thumb-up-mm p {
+    position: absolute;
+    top: 5px;
+    left: 38px;
+    color: green;
+}
+#priceb{
+
+    font-weight: bold;
+}
+.thumb-up-mm {
+    display: none;
+}
+@media only screen and (max-width: 990px) {
+  .mm_add_product_col.col-md-6 {
+        margin-top: 20px;
+    }
+}
+.openmmliner {
+    transition: all 700ms;
+    margin-top: 40px;
+    opacity: 1;
+    transform: scale(1);
+}
+.list_mm_list_qty {
+    margin-top: 25px;
+}
+.mix_match_container_wrap {
+    width: 100%;
+}
+.box-tobe-filled span {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.box-tobe-filled:before {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: opacity(50%);
+    padding-top: 122% !important;
+    content: '';
+}
+.box-tobe-filled:after {
+    content: '\A';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    z-index: 1;
+}
+.box-tobe-filled {
+    background-color: #dd3333 !important;
+}
+.box-tobe-filled {
+    display: block;
+    position: relative;
+    margin: 3px;
+    height: auto;
+    float: left;
+    background-color: #F5F5DC;
+    border: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+.mm_filled_col.col-md-6 .col-md-4.box-tobe-filled {
+    width: 30% !important;
+    position: relative;
+}
+.mm_quantity_addtocart {
+    margin-top: 30px;
+}
+.mm-item-info {
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+p.mm_pro_title {
+    line-height: 20px;
+    text-transform: capitalize;
+    height: 70px;
+    margin-bottom: 0px;
+}
+.mm_add_product_col .col-md-4.col-md-6.box_pro_item {
+    border: 1px solid #ccc;
+    margin: 0 0.5% 1% 0.5%;
+    padding: 0px;
+    width: 30% !important;
+    margin-left: 0px;
+    float: left;
+}
+.box_pro_item figure {
+    position: relative;
+}
+.mm_adding-pro-icon {
+    background-image: url(../../assets/images/add-circular-button.png);
+    position: absolute;
+    left: 0;
+    background-size: 60px 60px;
+    right: 0;
+    top: -20%;
+    bottom: 0;
+    cursor: pointer;
+    background-position: center 30%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: none;
+}
+.box_pro_item figure:hover .mm_adding-pro-icon,
+.box_pro_item figure:hover .mm_quantity.buttons_added {
+    display: block;
+}
+.box_pro_item figure:hover img{
+    opacity: 0.6;
+    filter:alpha(opacity=70);
+}
+.mm_quantity {
+    display: inline-block; 
+}
+.mm_quantity .input-text.qty {
+    width: 35px;
+    height: 30px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #525252;
+    color: black;
+}
+.mm_quantity.buttons_added {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    bottom: 0;
+    cursor: pointer;
+    background-position: center 30%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: none; 
+}
+.mm_quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+}
+.mm_quantity.buttons_added .minus,
+.mm_quantity.buttons_added .plus {
+    padding: 0px 10px 0px 10px;
+    height: 30px;
+    background-color: #0a0a0a;
+    cursor: pointer;
+    color: white;
+}
+.mm_quantity.buttons_added .minus {
+    border-right: 0; 
+}
+.mm_quantity.buttons_added .plus {
+    border-left: 0; 
+}
+.mm_quantity.buttons_added .minus:hover,
+.mm_quantity.buttons_added .plus:hover {
+    background: #6b6b6b; 
+}
+.mm_quantity input::-webkit-outer-spin-button,
+.mm_quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0; 
+}
+.mm_quantity.buttons_added .minus:focus,
+.mm_quantity.buttons_added .plus:focus {
+    outline: none; 
+}
+.col-md-6.mm_float_center {
+    text-align: center;
+}
+.col-md-6.mm_float_center .quantity {
+    float: unset !important;
+}
+.mm_quantity_addtocart .col-md-12 {
+    margin-top: 28px;
+}
+.mm_quantity_addtocart .mm_totalPrice {
+    margin-bottom: 25px;
+}
+.mm_quantity_addtocart button.single_add_to_cart_button {
+    background: #dd3333;
+}
+.col-md-12.mm_topHeading {
+    text-align: center;
+}
+.mm_topHeading span, 
+.col-md-12.mm_topHeading .parentPrice {
+    font-size: 25px;
+}
+.col-md-12.mm_topHeading {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.mm_topHeading hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+div#mm_error {
+    margin: 0 auto;
+    width: 70% !important;
+}
+#mm_error, #mm_stack_full,
+#mmlist_error {
+    display: none;
+}
+#mm_sucess{
+    display: none;
+}
+.box-tobe-filled span img {
+    border-radius: 0px ;
+    min-width: 100%;
+    height: -webkit-fill-available;
+}
+.mm_remove_product_icon {
+    background-image: url(../../assets/images/remove-mm-bundle.png);
+    position: absolute;
+    left: 0;
+    background-size: 60px 60px;
+    right: 0;
+    top: 12%;
+    bottom: 0;
+    cursor: pointer;
+    background-position: center 30%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: none;
+    z-index: 99999;
+}
+.box-tobe-filled.mm_yes:hover .mm_remove_product_icon {
+    display: block;
+}
+.col-md-6.col-lg-6.box-tobe-filled {
+    width: 47% !important;
+    position: relative;
+}
+.col-md-6.col-lg-6.box_pro_item {
+    border: 1px solid #ccc;
+    margin: 0 0.5% 1% 0.5%;
+    padding: 0px;
+    width: 47% !important;
+}
+
+
+
+
+
+
+
+/*listing tempalte*/
+.mm_list_image {
+    width: 80px;
+    margin: 0 auto;
+}
+.mix_match_container_wrap_list .jumbotron .row {
+    padding-bottom: 15px;
+}
+.mm_list_product_wrap {
+    padding: 30px 50px 20px 10px;
+    background: #f9f9f9;
+    margin-bottom: 50px;
+}
+.mm_list_product_wrap .row {
+    padding-bottom: 10px;
+}
+.mm_list_name {
+    padding: 10px 0px;
+}
+.mm_list_name a{
+    color: #96588a;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.mm_list_number input {
+    width: 100%;
+    text-align: center;
+}

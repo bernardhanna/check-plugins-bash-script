@@ -1,0 +1,405 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Mix & Match Product Boxes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-06 09:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.3.1\n"
+"X-Domain: extendons-woocommerce-product-boxes"
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-compressed.php:59
+msgid "  Box 1"
+msgstr ""
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-simple.php:71
+msgid " Add Box"
+msgstr ""
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-compressed.php:72
+msgid " Added"
+msgstr ""
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-simple.php:205
+msgid " Clear all items"
+msgstr ""
+
+#: Include/prefilled-template.php:24
+msgid "Actions"
+msgstr ""
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-simple.php:308
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-compressed.php:298
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-simple.php:306
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-compressed.php:295
+msgid "Add"
+msgstr ""
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-simple.php:180
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-compressed.php:180
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-compressed.php:79
+msgid "Add Box"
+msgstr ""
+
+#: mix-match-admin-operation.php:443
+msgid "Add New Prefilled"
+msgstr ""
+
+#: Include/general_settings.php:83
+msgid "Add to cart text"
+msgstr ""
+
+#: mix-match-admin-operation.php:381
+msgid "Add-On Products"
+msgstr ""
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-simple.php:72
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-compressed.php:195
+msgid "Added"
+msgstr ""
+
+#: mix-match-admin-operation.php:296
+msgid "Adds newly added product to the top"
+msgstr ""
+
+#: mix-match-admin-operation.php:355
+msgid "Allow Customers to Add Box Quantity"
+msgstr ""
+
+#: mix-match-admin-operation.php:269
+msgid "Allow Partially-Filled Box"
+msgstr ""
+
+#: mix-match-admin-operation.php:413
+msgid "Allow pre-filled box"
+msgstr ""
+
+#: mix-match-admin-operation.php:271
+msgid ""
+"Allow the purchase of box which has not been filled to its full capacity"
+msgstr ""
+
+#: mix-match-admin-operation.php:309
+msgid "Allows Customers to send a message along with the Gift Box"
+msgstr ""
+
+#: Include/general_settings.php:187
+msgid "Background color"
+msgstr ""
+
+#: templates/single-product/add-to-cart/mix-match-grid.php:61
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-simple.php:58
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-simple.php:60
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-compressed.php:71
+msgid "Box 1"
+msgstr ""
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-simple.php:188
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-compressed.php:188
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-simple.php:86
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-compressed.php:92
+msgid "Box 1 Quantity"
+msgstr ""
+
+#: Include/general_settings.php:226
+msgid "Box image placeholder"
+msgstr ""
+
+#: mix-match-admin-operation.php:257
+msgid "Box Quantity"
+msgstr ""
+
+#: Include/general_settings.php:144
+msgid "Box success message"
+msgstr ""
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-compressed.php:201
+msgid "Clear All Items"
+msgstr ""
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-simple.php:75
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-compressed.php:75
+msgid "Clear all items"
+msgstr ""
+
+#: Include/general_settings.php:165
+msgid "Color settings"
+msgstr ""
+
+#: Include/general_settings.php:30
+msgid "Compressed"
+msgstr ""
+
+#: mix-match-admin-operation.php:166
+msgid "Custom Boxes"
+msgstr ""
+
+#. Name of the plugin
+msgid "Custom Mix & Match Product Boxes"
+msgstr ""
+
+#. Description of the plugin
+msgid "Custom Mix & Match Product Boxes Plugin"
+msgstr ""
+
+#: mix-match-admin-operation.php:199
+msgid "Custom Product Boxes"
+msgstr ""
+
+#: Include/general_settings.php:31
+msgid "Detailed"
+msgstr ""
+
+#: Include/general_settings.php:232
+msgid "Enable custom placeholder."
+msgstr ""
+
+#: Include/general_settings.php:66
+msgid "Enable description"
+msgstr ""
+
+#: mix-match-admin-operation.php:307
+msgid "Enable Gift Message"
+msgstr ""
+
+#: mix-match-admin-operation.php:353
+msgid "Enable New Box Quantity"
+msgstr ""
+
+#: mix-match-admin-operation.php:330
+msgid "Enable Per Product Limit"
+msgstr ""
+
+#: Include/general_settings.php:229
+msgid "Enable schema"
+msgstr ""
+
+#: Include/mm-wcsubscription-compatible.php:167
+msgid "Enable Subscription"
+msgstr ""
+
+#: Include/mm-wcsubscription-compatible.php:169
+msgid "Enable Subscription for Extendons Mix & Match Product Boxes."
+msgstr ""
+
+#: mix-match-admin-operation.php:234
+msgid "Enable the button to make it a product box."
+msgstr ""
+
+#: mix-match-admin-operation.php:232
+msgid "Enable/Disable"
+msgstr ""
+
+#: Include/general_settings.php:234
+msgid "Enables to add custom image placeholder for product bundles."
+msgstr ""
+
+#: mix-match-admin-operation.php:342
+msgid "Enter limit per product"
+msgstr ""
+
+#: mix-match-admin-operation.php:261
+msgid ""
+"Enter the number of item which can be added to box, if left empty, 5 box "
+"quantity will be set by default."
+msgstr ""
+
+#: Include/general_settings.php:112
+msgid "Error Message"
+msgstr ""
+
+#. Author of the plugin
+msgid "Extendons"
+msgstr ""
+
+#: mix-match-admin-operation.php:246
+msgid "Fixed Pricing"
+msgstr ""
+
+#: mix-match-admin-operation.php:371
+msgid "For prefilled products add quantity that is available in stock."
+msgstr ""
+
+#: Include/general_settings.php:173
+msgid "Form width %"
+msgstr ""
+
+#: Include/general_settings.php:14
+msgid "General Settings"
+msgstr ""
+
+#: mix-match-front-operation.php:856
+msgid "Gift Message"
+msgstr ""
+
+#: mix-match-admin-operation.php:319
+msgid "Gift Message Label"
+msgstr ""
+
+#: Include/general_settings.php:50
+msgid "Grid"
+msgstr ""
+
+#: Include/general_settings.php:95
+msgid "Heading label"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://extendons.com"
+msgstr ""
+
+#: mix-match-admin-operation.php:374
+msgid ""
+"If you can update the individual product you must update the Add-On Products "
+"again."
+msgstr ""
+
+#: Include/general_settings.php:241
+msgid "Image placeholder"
+msgstr ""
+
+#: mix-match-admin-operation.php:365
+msgid "IMPORTANT NOTE:"
+msgstr ""
+
+#: mix-match-front-operation.php:665 mix-match-front-operation.php:671
+msgid "Included with"
+msgstr ""
+
+#: Include/general_settings.php:51
+msgid "List"
+msgstr ""
+
+#: Include/prefilled-template.php:15
+msgid "Mandatory"
+msgstr ""
+
+#: mix-match-admin-operation.php:279
+msgid "Minimum Allowed"
+msgstr ""
+
+#: mix-match-admin-operation.php:404
+msgid "No Products Found"
+msgstr ""
+
+#: Include/general_settings.php:119
+msgid "Out of stock error text message"
+msgstr ""
+
+#: mix-match-admin-operation.php:247
+msgid "Per Item Price With Base Price"
+msgstr ""
+
+#: mix-match-admin-operation.php:248
+msgid "Per Item Price WithOut Base Price"
+msgstr ""
+
+#: woocommerce-custom-product-boxes-plugin.php:145
+msgid "Permissions check failed"
+msgstr ""
+
+#: mix-match-admin-operation.php:411
+msgid "Pre-Filled Box"
+msgstr ""
+
+#: Include/general_settings.php:211
+msgid "Price label"
+msgstr ""
+
+#: mix-match-admin-operation.php:242
+msgid "Pricing Type"
+msgstr ""
+
+#: Include/general_settings.php:199
+msgid "Primary color"
+msgstr ""
+
+#: mix-match-admin-operation.php:188
+msgid "Product Boxes"
+msgstr ""
+
+#: Include/prefilled-template.php:18
+msgid "Product Name"
+msgstr ""
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-simple.php:60
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-compressed.php:71
+msgid "Qty:"
+msgstr ""
+
+#: Include/prefilled-template.php:21
+msgid "Quantity"
+msgstr ""
+
+#: Include/general_settings.php:267
+msgid "Remove Image"
+msgstr ""
+
+#: mix-match-admin-operation.php:332
+msgid "Restrict customers to a limit for identical products."
+msgstr ""
+
+#: Include/general_settings.php:23
+msgid "Select layout style"
+msgstr ""
+
+#: mix-match-admin-operation.php:244
+msgid "Select Pricing Type"
+msgstr ""
+
+#: mix-match-admin-operation.php:322
+msgid "Set a label for Gift Message field"
+msgstr ""
+
+#: mix-match-admin-operation.php:345
+msgid ""
+"Set a limit that restrict customers not to add same product more than this "
+"limit."
+msgstr ""
+
+#: mix-match-admin-operation.php:286
+msgid "Set the minimum box quantity to be allowed"
+msgstr ""
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-compressed.php:331
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-compressed.php:325
+msgid "Show details"
+msgstr ""
+
+#: Include/mm-wcsubscription-compatible.php:61
+msgid "Sign Up Now"
+msgstr ""
+
+#: mix-match-admin-operation.php:294
+msgid "Sort Products by Date"
+msgstr ""
+
+#: mix-match-front-operation.php:794
+msgid "Subtotal"
+msgstr ""
+
+#: Include/general_settings.php:137
+msgid "Success message"
+msgstr ""
+
+#: mix-match-admin-operation.php:368
+msgid "Variable Product can be added with separate variations."
+msgstr ""
+
+#: Include/general_settings.php:42
+msgid "View style"
+msgstr ""
+
+#: Include/general_settings.php:241
+msgid ""
+"You can upload custom image for empty box placeholder. Otherwise default "
+"will be applied"
+msgstr ""

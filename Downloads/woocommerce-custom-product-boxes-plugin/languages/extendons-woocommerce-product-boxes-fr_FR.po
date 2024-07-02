@@ -1,0 +1,505 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Mix & Match Product Boxes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-06 09:21+0000\n"
+"PO-Revision-Date: 2023-10-06 09:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: French (France)\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.3.1\n"
+"X-Domain: extendons-woocommerce-product-boxes"
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-compressed.php:59
+#, fuzzy
+msgid "  Box 1"
+msgstr "  Encadré 1"
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-simple.php:71
+#, fuzzy
+msgid " Add Box"
+msgstr " Ajouter une boîte"
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-compressed.php:72
+#, fuzzy
+msgid " Added"
+msgstr " Ajoutée"
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-simple.php:205
+#, fuzzy
+msgid " Clear all items"
+msgstr " Effacer tous les éléments"
+
+#: Include/prefilled-template.php:24
+#, fuzzy
+msgid "Actions"
+msgstr "Actions"
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-simple.php:308
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-compressed.php:298
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-simple.php:306
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-compressed.php:295
+#, fuzzy
+msgid "Add"
+msgstr "Ajouter"
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-simple.php:180
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-compressed.php:180
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-compressed.php:79
+#, fuzzy
+msgid "Add Box"
+msgstr "Ajouter une boîte"
+
+#: mix-match-admin-operation.php:443
+#, fuzzy
+msgid "Add New Prefilled"
+msgstr "Ajouter un nouveau pré-rempli"
+
+#: Include/general_settings.php:83
+#, fuzzy
+msgid "Add to cart text"
+msgstr "Ajouter au panier texte"
+
+#: mix-match-admin-operation.php:381
+#, fuzzy
+msgid "Add-On Products"
+msgstr "Produits complémentaires"
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-simple.php:72
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-compressed.php:195
+#, fuzzy
+msgid "Added"
+msgstr "Ajoutée"
+
+#: mix-match-admin-operation.php:296
+#, fuzzy
+msgid "Adds newly added product to the top"
+msgstr "Ajoute le produit nouvellement ajouté en haut"
+
+#: mix-match-admin-operation.php:355
+#, fuzzy
+msgid "Allow Customers to Add Box Quantity"
+msgstr "Autoriser les clients à ajouter la quantité de boîte"
+
+#: mix-match-admin-operation.php:269
+#, fuzzy
+msgid "Allow Partially-Filled Box"
+msgstr "Autoriser la case partiellement remplie"
+
+#: mix-match-admin-operation.php:413
+#, fuzzy
+msgid "Allow pre-filled box"
+msgstr "Autoriser la case pré-remplie"
+
+#: mix-match-admin-operation.php:271
+#, fuzzy
+msgid ""
+"Allow the purchase of box which has not been filled to its full capacity"
+msgstr "Autoriser l'achat de box qui n'a pas été remplie à sa pleine capacité"
+
+#: mix-match-admin-operation.php:309
+#, fuzzy
+msgid "Allows Customers to send a message along with the Gift Box"
+msgstr "Permet aux clients d'envoyer un message avec le coffret cadeau"
+
+#: Include/general_settings.php:187
+#, fuzzy
+msgid "Background color"
+msgstr "Couleur de l'arrière plan"
+
+#: templates/single-product/add-to-cart/mix-match-grid.php:61
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-simple.php:58
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-simple.php:60
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-compressed.php:71
+#, fuzzy
+msgid "Box 1"
+msgstr "Encadré 1"
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-simple.php:188
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-compressed.php:188
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-simple.php:86
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-compressed.php:92
+#, fuzzy
+msgid "Box 1 Quantity"
+msgstr "Boîte 1 Quantité"
+
+#: Include/general_settings.php:226
+#, fuzzy
+msgid "Box image placeholder"
+msgstr "Espace réservé pour l’image de la boîte"
+
+#: mix-match-admin-operation.php:257
+#, fuzzy
+msgid "Box Quantity"
+msgstr "Quantité par boîte"
+
+#: Include/general_settings.php:144
+#, fuzzy
+msgid "Box success message"
+msgstr "Message de réussite de la boîte"
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-compressed.php:201
+#, fuzzy
+msgid "Clear All Items"
+msgstr "Effacer tous les éléments"
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-simple.php:75
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-compressed.php:75
+#, fuzzy
+msgid "Clear all items"
+msgstr "Effacer tous les éléments"
+
+#: Include/general_settings.php:165
+#, fuzzy
+msgid "Color settings"
+msgstr "Paramètres de couleur"
+
+#: Include/general_settings.php:30
+#, fuzzy
+msgid "Compressed"
+msgstr "Comprimé"
+
+#: mix-match-admin-operation.php:166
+#, fuzzy
+msgid "Custom Boxes"
+msgstr "Boîtes personnalisées"
+
+#. Name of the plugin
+#, fuzzy
+msgid "Custom Mix & Match Product Boxes"
+msgstr "Boîtes de produits personnalisées Mix & Match"
+
+#. Description of the plugin
+#, fuzzy
+msgid "Custom Mix & Match Product Boxes Plugin"
+msgstr "Plugin de boîtes de produits Mix & Match personnalisées"
+
+#: mix-match-admin-operation.php:199
+#, fuzzy
+msgid "Custom Product Boxes"
+msgstr "Boîtes de produits personnalisées"
+
+#: Include/general_settings.php:31
+#, fuzzy
+msgid "Detailed"
+msgstr "Détaillé"
+
+#: Include/general_settings.php:232
+#, fuzzy
+msgid "Enable custom placeholder."
+msgstr "Activer l'espace réservé personnalisé."
+
+#: Include/general_settings.php:66
+#, fuzzy
+msgid "Enable description"
+msgstr "Activer la description"
+
+#: mix-match-admin-operation.php:307
+#, fuzzy
+msgid "Enable Gift Message"
+msgstr "Activer le message cadeau"
+
+#: mix-match-admin-operation.php:353
+#, fuzzy
+msgid "Enable New Box Quantity"
+msgstr "Activer la nouvelle quantité de boîte"
+
+#: mix-match-admin-operation.php:330
+#, fuzzy
+msgid "Enable Per Product Limit"
+msgstr "Activer la limite par produit"
+
+#: Include/general_settings.php:229
+#, fuzzy
+msgid "Enable schema"
+msgstr "Activer le schéma"
+
+#: Include/mm-wcsubscription-compatible.php:167
+#, fuzzy
+msgid "Enable Subscription"
+msgstr "Activer l'abonnement"
+
+#: Include/mm-wcsubscription-compatible.php:169
+#, fuzzy
+msgid "Enable Subscription for Extendons Mix & Match Product Boxes."
+msgstr "Activez l’abonnement aux boîtes de produits Extendons Mix & Match."
+
+#: mix-match-admin-operation.php:234
+#, fuzzy
+msgid "Enable the button to make it a product box."
+msgstr "Activez le bouton pour en faire une boîte de produit."
+
+#: mix-match-admin-operation.php:232
+#, fuzzy
+msgid "Enable/Disable"
+msgstr "Activer désactiver"
+
+#: Include/general_settings.php:234
+#, fuzzy
+msgid "Enables to add custom image placeholder for product bundles."
+msgstr ""
+"Permet d'ajouter un espace réservé à l'image personnalisée pour les offres "
+"groupées de produits."
+
+#: mix-match-admin-operation.php:342
+#, fuzzy
+msgid "Enter limit per product"
+msgstr "Entrez la limite par produit"
+
+#: mix-match-admin-operation.php:261
+#, fuzzy
+msgid ""
+"Enter the number of item which can be added to box, if left empty, 5 box "
+"quantity will be set by default."
+msgstr ""
+"Entrez le nombre d'articles qui peuvent être ajoutés à la boîte, si laissé "
+"vide, la quantité de 5 boîtes sera définie par défaut."
+
+#: Include/general_settings.php:112
+#, fuzzy
+msgid "Error Message"
+msgstr "Message d'erreur"
+
+#. Author of the plugin
+#, fuzzy
+msgid "Extendons"
+msgstr "Extensions"
+
+#: mix-match-admin-operation.php:246
+#, fuzzy
+msgid "Fixed Pricing"
+msgstr "Prix fixe"
+
+#: mix-match-admin-operation.php:371
+#, fuzzy
+msgid "For prefilled products add quantity that is available in stock."
+msgstr "Pour les produits préremplis, ajoutez la quantité disponible en stock."
+
+#: Include/general_settings.php:173
+#, fuzzy
+msgid "Form width %"
+msgstr "Largeur du formulaire %"
+
+#: Include/general_settings.php:14
+#, fuzzy
+msgid "General Settings"
+msgstr "réglages généraux"
+
+#: mix-match-front-operation.php:856
+#, fuzzy
+msgid "Gift Message"
+msgstr "Message de cadeau"
+
+#: mix-match-admin-operation.php:319
+#, fuzzy
+msgid "Gift Message Label"
+msgstr "Étiquette de message cadeau"
+
+#: Include/general_settings.php:50
+#, fuzzy
+msgid "Grid"
+msgstr "Grille"
+
+#: Include/general_settings.php:95
+#, fuzzy
+msgid "Heading label"
+msgstr "Étiquette de titre"
+
+#. URI of the plugin
+#, fuzzy
+msgid "http://extendons.com"
+msgstr "http://extendons.com"
+
+#: mix-match-admin-operation.php:374
+#, fuzzy
+msgid ""
+"If you can update the individual product you must update the Add-On Products "
+"again."
+msgstr ""
+"Si vous pouvez mettre à jour le produit individuel, vous devez à nouveau "
+"mettre à jour les produits complémentaires."
+
+#: Include/general_settings.php:241
+#, fuzzy
+msgid "Image placeholder"
+msgstr "Espace réservé à l’image"
+
+#: mix-match-admin-operation.php:365
+#, fuzzy
+msgid "IMPORTANT NOTE:"
+msgstr "NOTE IMPORTANTE:"
+
+#: mix-match-front-operation.php:665 mix-match-front-operation.php:671
+#, fuzzy
+msgid "Included with"
+msgstr "Inclus avec"
+
+#: Include/general_settings.php:51
+#, fuzzy
+msgid "List"
+msgstr "Liste"
+
+#: Include/prefilled-template.php:15
+#, fuzzy
+msgid "Mandatory"
+msgstr "Obligatoire"
+
+#: mix-match-admin-operation.php:279
+#, fuzzy
+msgid "Minimum Allowed"
+msgstr "Minimum autorisé"
+
+#: mix-match-admin-operation.php:404
+#, fuzzy
+msgid "No Products Found"
+msgstr "Aucun produit trouvé"
+
+#: Include/general_settings.php:119
+#, fuzzy
+msgid "Out of stock error text message"
+msgstr "Message texte d'erreur en cas de rupture de stock"
+
+#: mix-match-admin-operation.php:247
+#, fuzzy
+msgid "Per Item Price With Base Price"
+msgstr "Prix par article avec prix de base"
+
+#: mix-match-admin-operation.php:248
+#, fuzzy
+msgid "Per Item Price WithOut Base Price"
+msgstr "Prix par article sans prix de base"
+
+#: woocommerce-custom-product-boxes-plugin.php:145
+#, fuzzy
+msgid "Permissions check failed"
+msgstr "La vérification des autorisations a échoué"
+
+#: mix-match-admin-operation.php:411
+#, fuzzy
+msgid "Pre-Filled Box"
+msgstr "Boîte pré-remplie"
+
+#: Include/general_settings.php:211
+#, fuzzy
+msgid "Price label"
+msgstr "Étiquette de prix"
+
+#: mix-match-admin-operation.php:242
+#, fuzzy
+msgid "Pricing Type"
+msgstr "Type de prix"
+
+#: Include/general_settings.php:199
+#, fuzzy
+msgid "Primary color"
+msgstr "Couleur primaire"
+
+#: mix-match-admin-operation.php:188
+#, fuzzy
+msgid "Product Boxes"
+msgstr "Boîtes de produits"
+
+#: Include/prefilled-template.php:18
+#, fuzzy
+msgid "Product Name"
+msgstr "Nom du produit"
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-simple.php:60
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-compressed.php:71
+#, fuzzy
+msgid "Qty:"
+msgstr "Quantité :"
+
+#: Include/prefilled-template.php:21
+#, fuzzy
+msgid "Quantity"
+msgstr "Quantité"
+
+#: Include/general_settings.php:267
+#, fuzzy
+msgid "Remove Image"
+msgstr "Supprimer l'image"
+
+#: mix-match-admin-operation.php:332
+#, fuzzy
+msgid "Restrict customers to a limit for identical products."
+msgstr "Limitez les clients à une limite pour des produits identiques."
+
+#: Include/general_settings.php:23
+#, fuzzy
+msgid "Select layout style"
+msgstr "Sélectionnez le style de mise en page"
+
+#: mix-match-admin-operation.php:244
+#, fuzzy
+msgid "Select Pricing Type"
+msgstr "Sélectionnez le type de tarification"
+
+#: mix-match-admin-operation.php:322
+#, fuzzy
+msgid "Set a label for Gift Message field"
+msgstr "Définir une étiquette pour le champ Message cadeau"
+
+#: mix-match-admin-operation.php:345
+#, fuzzy
+msgid ""
+"Set a limit that restrict customers not to add same product more than this "
+"limit."
+msgstr ""
+"Définissez une limite qui empêche les clients d'ajouter le même produit au-"
+"delà de cette limite."
+
+#: mix-match-admin-operation.php:286
+#, fuzzy
+msgid "Set the minimum box quantity to be allowed"
+msgstr "Définir la quantité minimale de boîtes à autoriser"
+
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-vertical-compressed.php:331
+#: templates/single-product/add-to-cart/product-gift-box/front-end/product-box-horizontal-compressed.php:325
+#, fuzzy
+msgid "Show details"
+msgstr "Afficher les détails"
+
+#: Include/mm-wcsubscription-compatible.php:61
+#, fuzzy
+msgid "Sign Up Now"
+msgstr "S'inscrire maintenant"
+
+#: mix-match-admin-operation.php:294
+#, fuzzy
+msgid "Sort Products by Date"
+msgstr "Trier les produits par date"
+
+#: mix-match-front-operation.php:794
+#, fuzzy
+msgid "Subtotal"
+msgstr "Total"
+
+#: Include/general_settings.php:137
+#, fuzzy
+msgid "Success message"
+msgstr "Message de réussite"
+
+#: mix-match-admin-operation.php:368
+#, fuzzy
+msgid "Variable Product can be added with separate variations."
+msgstr "Un produit variable peut être ajouté avec des variantes distinctes."
+
+#: Include/general_settings.php:42
+#, fuzzy
+msgid "View style"
+msgstr "Style d'affichage"
+
+#: Include/general_settings.php:241
+#, fuzzy
+msgid ""
+"You can upload custom image for empty box placeholder. Otherwise default "
+"will be applied"
+msgstr ""
+"Vous pouvez télécharger une image personnalisée pour l’espace réservé à la "
+"boîte vide. Sinon, la valeur par défaut sera appliquée"
