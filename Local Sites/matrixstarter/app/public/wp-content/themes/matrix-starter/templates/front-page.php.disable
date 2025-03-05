@@ -1,0 +1,31 @@
+<?php
+/**
+ * Template Name: Front Page
+ *
+ * @package Matrix Starter
+ */
+
+get_header();
+?>
+
+<main class="site-main">
+    <div class="container px-4 py-6 mx-auto">
+        <section class="hero">
+            <h1 class="text-4xl font-bold"><?php bloginfo('name'); ?></h1>
+            <p class="text-base"><?php bloginfo('description'); ?></p>
+        </section>
+
+        <section class="content">
+            <?php
+            if (have_posts()) :
+                while (have_posts()) : the_post();
+                    the_content();
+                endwhile;
+            endif;
+            ?>
+        </section>
+    </div>
+</main>
+
+<?php
+get_footer();

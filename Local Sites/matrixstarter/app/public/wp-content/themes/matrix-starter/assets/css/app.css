@@ -1,0 +1,312 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+}
+h2 {
+}
+h3 {
+}
+h4 {
+}
+h5 {
+}
+h6 {
+}
+ul {
+}
+ol {
+}
+li {
+}
+
+/* Links */
+a {
+}
+
+/* Forms */
+input {
+}
+textarea {
+}
+select {
+}
+button {
+}
+
+.entry-content img {
+  margin: 0 0 1.5em 0;
+}
+.alignleft,
+img.alignleft {
+  margin-right: 1.5em;
+  display: inline;
+  float: left;
+}
+.alignright,
+img.alignright {
+  margin-left: 1.5em;
+  display: inline;
+  float: right;
+}
+.aligncenter,
+img.aligncenter {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  clear: both;
+  height: auto;
+  width: 100%;
+}
+.alignnone,
+img.alignnone {
+  /* not sure about this one */
+}
+.wp-caption {
+  margin-bottom: 1.5em;
+  text-align: center;
+  padding-top: 5px;
+}
+.wp-caption img {
+  border: 0 none;
+  padding: 0;
+  margin: 0;
+}
+.wp-caption p.wp-caption-text {
+  line-height: 1.5;
+  font-size: 10px;
+  margin: 0;
+}
+.wp-smiley {
+  margin: 0 !important;
+  max-height: 1em;
+}
+blockquote.left {
+  margin-right: 20px;
+  text-align: right;
+  margin-left: 0;
+  width: 33%;
+  float: left;
+}
+blockquote.right {
+  margin-left: 20px;
+  text-align: left;
+  margin-right: 0;
+  width: 33%;
+  float: right;
+}
+
+table.grants tr:first-child td {
+  background-color: #0d783d;
+  color: #fff;
+}
+
+table.grants tr:nth-child(odd) td {
+  background-color: #f6f6f6;
+}
+.thm-unit-test table tbody tr td {
+  border: 1px solid #ddd;
+  line-height: 1.42857;
+  padding: 8px;
+  vertical-align: top;
+}
+
+html {
+  width: 100%;
+  /*max-width: 1728px; */
+  margin: auto;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: bounceDown 0.6s ease;
+}
+
+@keyframes bounceDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  60% {
+    transform: translateY(10px);
+  }
+  80% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.current-menu-item {
+  border-bottom: 2px solid #f16623;
+}
+
+.children .current-menu-item {
+  border-bottom: none !important;
+  background: #fffae8;
+}
+
+/* Calendly badge widget default styles */
+.calendly-badge-widget {
+  position: fixed !important;
+  right: 0 !important;
+  top: 40% !important;
+  z-index: 1000;
+  background-color: #f16623 !important;
+  color: #ffffff !important;
+  width: 80px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  line-height: normal;
+  text-transform: uppercase !important;
+  border-radius: 0px !important;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.calendly-badge-widget .calendly-badge-content {
+  padding: 1.3rem !important;
+}
+
+/* Flip the text within the button for larger screens */
+.calendly-badge-content {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 80px !important;
+  width: 100%;
+  transform: rotate(270deg); /* Flipping the text */
+  font-family: Poppins !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  box-shadow: none !important;
+  position: relative; /* To position the SVG */
+  border-radius: 0px !important;
+}
+
+/* Hover styles
+        .calendly-badge-widget:hover {
+            background-color: #0D783D !important;
+        } */
+
+/* Hide the default Calendly branding if branding is undefined */
+.calendly-badge-widget .calendly-badge-powered-by {
+  display: none;
+}
+
+/* Full-screen Calendly iframe adjustment */
+.calendly-overlay iframe {
+  width: 100%;
+  height: 100vh !important;
+}
+
+.calendly-overlay .calendly-popup .calendly-popup-content {
+  height: 100vh !important;
+}
+
+/* Styles for Custom SVG */
+.calendly-badge-svg {
+  display: none; /* Hidden by default */
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none; /* Allow clicks to pass through to the badge */
+}
+
+.calendly-badge-widget .calendly-badge-content span {
+  display: block;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+/* Responsive Styles for Smaller Screens */
+@media (max-width: 768px) {
+  .calendly-badge-content {
+    border-radius: 50% !important;
+  }
+  .calendly-badge-widget {
+    right: 20px !important;
+    bottom: 20px !important;
+    top: auto !important;
+    width: 80px !important;
+    height: 80px !important;
+    border-radius: 50% !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+    margin: auto;
+    background-color: #f16623 !important;
+  }
+
+  /* Hide the Calendly badge text */
+  .badge-text {
+    display: none !important;
+  }
+
+  /* Show the SVG */
+  .calendly-badge-svg {
+    display: block !important;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    transform: rotateX(145deg);
+    pointer-events: none;
+    top: unset;
+    left: 0;
+    right: 0;
+  }
+  .calendly-badge-widget .calendly-badge-content {
+    border-radius: 100% !important;
+  }
+}
+
+.calendly-badge-widget {
+  visibility: hidden; /* Ensure it's not visible initially */
+  opacity: 0;
+  transform: translateY(100%);
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+/* When ready to show, apply the slide-up effect */
+.calendly-badge-widget.slide-up {
+  visibility: visible; /* Make it visible when it slides up */
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Ensure the desktop version doesn’t flash on mobile by keeping the badge off-screen until it’s loaded */
+@media (max-width: 768px) {
+  .calendly-badge-widget.hidden-offscreen {
+    visibility: hidden; /* Hide until fully loaded */
+  }
+}
